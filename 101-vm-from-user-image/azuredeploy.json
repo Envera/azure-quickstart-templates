@@ -10,10 +10,10 @@
     },
     "userImageStorageAccountName": {
       "type": "string",
-      "defaultValue": "picusvmimages",
       "metadata": {
         "description": "This is the name of the your storage account"
-      }
+      },
+      "defaultValue": "picusvmimages"
     },
     "userImageStorageAccountResourceGroupName": {
       "type": "string",
