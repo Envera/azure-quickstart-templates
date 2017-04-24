@@ -27,7 +27,7 @@
       "metadata": {
         "description": "Imaj Dosyasının linki"
       },
-      "defaultValue": "https://picus.blob.core.windows.net/vhds/centos3.vhd"
+      "defaultValue": "https://picusstorage.blob.core.windows.net/vhds/centos3.vhd"
     },
     "dnsLabelPrefix": {
       "type": "string",
