@@ -10,18 +10,21 @@
     },
     "userImageStorageAccountName": {
       "type": "string",
+      "defaultValue": "picusvmimages",
       "metadata": {
         "description": "This is the name of the your storage account"
       }
     },
     "userImageStorageAccountResourceGroupName": {
       "type": "string",
+      "defaultValue": "picusvmimagesrg",
       "metadata": {
         "description": "Resource group of the existing storage account"
       }
     },
     "osDiskVhdUri": {
       "type": "string",
+      "defaultValue": "https://picusvmimages.blob.core.windows.net/vhds/centos3.vhd"
       "metadata": {
         "description": "Uri of the your user image"
       }
@@ -46,6 +49,7 @@
     },
     "osType": {
       "type": "string",
+      "defaultValue": "Linux",
       "allowedValues": [
         "Windows",
         "Linux"
@@ -56,6 +60,7 @@
     },
     "vmSize": {
       "type": "string",
+      "defaultValue": "Standard_A1",
       "metadata": {
         "description": "This is the size of your VM"
       }
@@ -63,6 +68,7 @@
     "newOrExistingVnet": {
       "allowedValues": [ "new", "existing" ],
       "type": "string",
+      "defaultValue": "new",
       "metadata": {
         "description":  "Select if this template needs a new VNet or will reference an existing VNet"
       }
@@ -93,7 +99,7 @@
     "nicName": "[concat(parameters('customVmName'),'Nic')]",
     "publicIPAddressType": "Dynamic",
     "apiVersion": "2015-06-15",
-    "templatelink": "[concat('https://raw.githubusercontent.com/singhkay/azure-quickstart-templates/master/101-vm-from-user-image/',parameters('newOrExistingVnet'),'vnet.json')]"
+    "templatelink": "[concat('https://raw.githubusercontent.com/Envera/azure-quickstart-templates/master/101-vm-from-user-image/',parameters('newOrExistingVnet'),'vnet.json')]"
   },
   "resources": [
     {
