@@ -3,43 +3,43 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "customVmName": {
-      "value": "customVM2"
+      "value": "customVM"
     },
     "userImageStorageAccountName": {
-      "value": "customubrgdisks112"
+      "value": "picusvmimages"
     },
     "userImageStorageAccountResourceGroupName": {
-      "value": "customubrg"
+      "value": "picusvmimages"
     },
     "adminUsername": {
-      "value": "user"
+      "value": "admin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "PicusV01K@n"
     },
     "osDiskVhdUri": {
-      "value": "https://customubrgdisks112.blob.core.windows.net/vhds/customub20161011133129.vhd"
+      "value": "https://picusvmimages.blob.core.windows.net/vhds/centos3.vhd"
     },
     "dnsLabelPrefix": {
-      "value": "customklayip2"
+      "value": "picuscustomcentos"
     },
     "osType": {
       "value": "Linux"
     },
     "vmSize": {
-      "value": "Standard_A2"
+      "value": "Standard_A1"
     },
     "newOrExistingVnet": {
-      "value": "existing"
+      "value": "new"
     },
     "newOrExistingVnetName": {
-      "value": "customubrg-vnet"
+      "value": "custom-vnet"
     },
     "newOrExistingSubnetName": {
       "value": "default"
     },
     "existingVnetResourceGroupName": {
-      "value": "customubrg"
+      "value": "customrg"
     }
   }
 }
