@@ -27,7 +27,7 @@
       "value": "Linux"
     },
     "vmSize": {
-      "value": "Standard_A2"
+      "value": "Standard_A1"
     },
     "newOrExistingVnet": {
       "value": "existing"
