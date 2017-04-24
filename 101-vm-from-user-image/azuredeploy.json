@@ -5,46 +5,46 @@
     "customVmName": {
       "type": "string",
       "metadata": {
-        "description": "This is the name of the your VM"
+        "description": "VM Adı"
       }
     },
     "userImageStorageAccountName": {
       "type": "string",
       "metadata": {
-        "description": "This is the name of the your storage account"
+        "description": "Depolama Hesabı Adı"
       },
-      "defaultValue": "picusvmimages"
+      "defaultValue": "picus"
     },
     "userImageStorageAccountResourceGroupName": {
       "type": "string",
-      "defaultValue": "picusvmimagesrg",
+      "defaultValue": "picusstorage",
       "metadata": {
-        "description": "Resource group of the existing storage account"
+        "description": "Mevcut Depolama Hesabının Kaynak Grubu Adı"
       }
     },
     "osDiskVhdUri": {
       "type": "string",
       "metadata": {
-        "description": "Uri of the your user image"
+        "description": "Imaj Dosyasının linki"
       },
-      "defaultValue": "https://picusvmimages.blob.core.windows.net/vhds/centos3.vhd"
+      "defaultValue": "https://picus.blob.core.windows.net/vhds/centos3.vhd"
     },
     "dnsLabelPrefix": {
       "type": "string",
       "metadata": {
-        "description": "DNS Label for the Public IP. Must be lowercase. It should match with the following regular expression: ^[a-z][a-z0-9-]{1,61}[a-z0-9]$ or it will raise an error."
+        "description": "Dış IP için DNS Etiketi. küçük harf olmak zorundadır. regular expression: ^[a-z][a-z0-9-]{1,61}[a-z0-9]$"
       }
     },
     "adminUserName": {
       "type": "string",
       "metadata": {
-        "description": "User Name for the Virtual Machine"
+        "description": "VM için Admin Kullanıcı Adı"
       }
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "Password for the Virtual Machine"
+        "description": "VM için Admin Parolası"
       }
     },
     "osType": {
@@ -55,14 +55,14 @@
         "Linux"
       ],
       "metadata": {
-        "description": "This is the OS that your VM will be running"
+        "description": "İşletim Sistemi Tipi"
       }
     },
     "vmSize": {
       "type": "string",
       "defaultValue": "Standard_A1",
       "metadata": {
-        "description": "This is the size of your VM"
+        "description": "VM Boyutu"
       }
     },
     "newOrExistingVnet": {
@@ -70,26 +70,26 @@
       "type": "string",
       "defaultValue": "new",
       "metadata": {
-        "description":  "Select if this template needs a new VNet or will reference an existing VNet"
+        "description":  "Yeni Bir Sanal Ağa mı yoksa Mevcut Bir sanal Ağa mı kurulum yapacaksınız."
       }
     },
     "newOrExistingVnetName": {
       "type": "string",
       "defaultValue": "",
       "metadata": {
-        "description": "New or Existing VNet Name"
+        "description": "Sanal Ağ Adı"
       }
     },
     "newOrExistingSubnetName": {
       "type": "string",
       "metadata": {
-        "description": "New or Existing subnet Name"
+        "description": "Sanal Ağ Alt Ağ adı"
       }
     },
     "existingVnetResourceGroupName": {
       "type": "string",
       "metadata": {
-        "description": "Resource group of the existing VNET"
+        "description": "Sanal ağ için mevcut Kaynak Grubu adı."
       }
     }
   },
