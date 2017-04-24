@@ -24,7 +24,7 @@
     },
     "osDiskVhdUri": {
       "type": "string",
-      "defaultValue": "https://picusvmimages.blob.core.windows.net/vhds/centos3.vhd"
+      "defaultValue": "https://picusvmimages.blob.core.windows.net/vhds/centos3.vhd",
       "metadata": {
         "description": "Uri of the your user image"
       }
