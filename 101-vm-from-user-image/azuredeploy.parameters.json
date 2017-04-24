@@ -15,7 +15,7 @@
       "value": "admin"
     },
     "adminPassword": {
-      "value": "PicusV01K@n"
+      "value": "P@ssword1"
     },
     "osDiskVhdUri": {
       "value": "https://picusvmimages.blob.core.windows.net/vhds/centos3.vhd"
