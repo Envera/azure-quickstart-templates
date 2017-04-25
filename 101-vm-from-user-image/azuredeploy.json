@@ -13,11 +13,11 @@
       "metadata": {
         "description": "Depolama Hesabı Adı"
       },
-      "defaultValue": "picusstorage"
+      "defaultValue": "picus"
     },
     "userImageStorageAccountResourceGroupName": {
       "type": "string",
-      "defaultValue": "picusstorage",
+      "defaultValue": "picus",
       "metadata": {
         "description": "Mevcut Depolama Hesabının Kaynak Grubu Adı"
       }
@@ -27,7 +27,7 @@
       "metadata": {
         "description": "Imaj Dosyasının linki"
       },
-      "defaultValue": "https://picusstorage.blob.core.windows.net/vhds/centos3.vhd"
+      "defaultValue": "https://picus.blob.core.windows.net/vhds/centos3.vhd"
     },
     "dnsLabelPrefix": {
       "type": "string",
