@@ -13,7 +13,7 @@
       "metadata": {
         "description": "Depolama Hesabı Adı"
       },
-      "defaultValue": "picus"
+      "defaultValue": "picusstrg"
     },
     "userImageStorageAccountResourceGroupName": {
       "type": "string",
